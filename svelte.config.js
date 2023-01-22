@@ -20,7 +20,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: process.env.NODE_ENV === "production" ? "/amm_calculator" : "",
+			base: process.env.NODE_ENV === "production" ? "/amm_calculator" : "build",
 		},
 	}
 };
